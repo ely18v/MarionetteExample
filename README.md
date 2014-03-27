@@ -1,7 +1,7 @@
 # Contact Manager using Marionette
-This is a simple ContactManager application doing CRUD operations.
+Hi there! This is a simple ContactManager application doing CRUD operations.
 
-I've taken the liberty of following "Gentle Introduction to Marionette" by David Sulc, as well as a few other tutorials which I now find inadequate (tutsplus included) because they were recommending to make the entire application in one or two .js files. 
+I've taken the liberty of following "Gentle Introduction to Marionette" by David Sulc, as well as a few other beginner tutorials which I now find a bit misleading (tutsplus included) because they were recommending to make the entire application in one or two .js files. 
 
 ## Learning about each component
 * Brunch: I've learned how to create a new project using Brunch. This was pretty straightforward. Still got no clue how to add the debugging component through brew. (What is brew??). Will try installing it as a gem. 
