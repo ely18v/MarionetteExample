@@ -1,11 +1,11 @@
-# My first Marionette Application
+# Contact Manager using Marionette
 This is a simple ContactManager application doing CRUD operations.
 
 I've taken the liberty of following "Gentle Introduction to Marionette" by David Sulc, as well as a few other tutorials which I now find inadequate (tutsplus included) because they were recommending to make the entire application in one or two .js files. 
 
 ## Learning about each component
 * Brunch: I've learned how to create a new project using Brunch. This was pretty straightforward. Still got no clue how to add the debugging component through brew. (What is brew??). Will try installing it as a gem. 
-* Backbone - I wouldn't say it's true MVC. The role of the View makes me shudder. Why not call it an Observer?
+* Backbone - I wouldn't say it's true MVC. The role of the View is sketchy. Why not call it an Observer?
 * Marionette - I still don't have a clear distinction of where Backbone ends and Marionette begins, so most advantages are still lost on me. Am still thankful for any syntactic sugar though.
 * CoffeeScript - ??
 
