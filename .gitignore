@@ -1,2 +1,7 @@
 node_modules
-public
+public/fonts
+public/img
+public/javascripts
+public/stylesheets
+public/test
+**/.DS_Store
