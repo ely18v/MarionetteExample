@@ -1,7 +1,13 @@
 node_modules
+app
+test
+vendor
+config.coffee
+package.json
 public/fonts
 public/img
 public/javascripts
 public/stylesheets
 public/test
 **/.DS_Store
+.gitignore
