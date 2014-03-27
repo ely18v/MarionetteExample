@@ -63,15 +63,7 @@ ContactManagerApp.module("Entities", function(Entities, ContactManagerApp, Backb
 				return initializeContacts();
 			}
 			return contacts;
-		},
-
-		setContactEntity: function(contactName, contactEmail, contactPhone){
-			var contact = new Entities.Contact({name: contactName, email: contactEmail, phone: contactPhone});
-			var contacts = new Entities.Contacts();
-			contacts.fetch();
-			contacts.push(newContact);
-			fetchingContacts.trigger("reset");
-		},
+		}
 	};
 
     ContactManagerApp.reqres.setHandler("contact:entity", function(id){

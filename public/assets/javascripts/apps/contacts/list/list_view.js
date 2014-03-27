@@ -48,9 +48,7 @@ ContactManagerApp.module("ContactsApp.List", function(List, ContactManagerApp, B
 
 	  	events: {
 	      	"click a.delete": "deleteContact",
-	      	"click a.edit": "editContact",
-	      	"click button.save": "saveEdits",
-	      	"click a.js-show": "showContact"
+	      	"click a.edit": "editContact"
 	  	},
 
 	  	deleteContact: function(){
@@ -71,12 +69,6 @@ ContactManagerApp.module("ContactsApp.List", function(List, ContactManagerApp, B
 	  		e.preventDefault();
 	  		e.stopPropagation();
 	 	  	this.trigger("contact:edit", this.model);
-	 	},
-
-	 	showContact: function(e){
-	 		e.preventDefault();
-	 		e.stopPropagation();
-	 		this.trigger("contact:show", this.model);
 	 	}
 	});
 
